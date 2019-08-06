@@ -7,7 +7,27 @@
 	<script src="script.js"></script>
 </head>
 <body>
-	<h1>Let's test this</h1>
-
+	<header>
+		<h1>Welcome to Yannick's very own website!</h1>
+		<p>Enjoy your (brief) stay</p>
+		<nav id="navbar">
+			<a href="index.html">Home</a> |
+			<a href="about.html">About me</a> |
+			<a href="project.html">Project</a> |
+		</nav>
+	</header>
+	<h2>Do you have any suggestions? Please leave a comment!</h2>
+	<form action="/action_page.php" method="get">
+		First name: <input type="text" name="fname"><br>
+		Last name: <input type="text" name="lname"><br>
+		E-mail: <input type="text" name="email"><br>
+		Comment: <br>
+		<textarea rows="5" cols="50" maxlength="500" name="comment" placeholder="Enter vile troll message here"></textarea><br>
+		<input type="submit" value="Submit">
+	</form>
+	<p>Comments won't actually be saved, but I appreciate you trying!</p>
+	<footer>
+		<p>&copy; Copyrighting is so fancy</p>
+	</footer>
 </body>
 </html>
