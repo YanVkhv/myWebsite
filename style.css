@@ -1,0 +1,50 @@
+body {
+	width: 1024px;
+	margin: auto;
+	font-family: 'Century';
+	color: #5D6063;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+header {
+	background-color: #FFF8DC;
+}
+
+footer {
+	text-align: center;
+	background-color: #FFF8DC;
+}
+
+em {
+	font-weight: bold;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+a, u {
+    text-decoration: none;
+    color: grey;
+}
+
+#navbar {
+	font-size: 1.2em;
+}
+
+.main {
+	background-color: #F5F5DC;
+}
+
+#gifofme {
+	float: right;
+	margin-left: 1em;
+}
+
+#gfandme {
+	float: left;
+	margin-right: 2em;
+}
